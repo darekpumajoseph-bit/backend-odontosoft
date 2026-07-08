@@ -1,0 +1,14 @@
+from .auth import router as auth_router
+from .usuarios import router as usuarios_router
+from .pacientes import router as pacientes_router
+from .odontologos import router as odontologos_router
+from .consultorios import router as consultorios_router
+from .historias_clinicas import router as historias_clinicas_router
+from .citas import router as citas_router
+from .tratamientos import router as tratamientos_router
+from .recordatorios import router as recordatorios_router
+from .pagos import router as pagos_router
+from .facturas import router as facturas_router
+from .roles import router as roles_router
+from .proveedores import router as proveedores_router
+from .servicios import router as servicios_router
